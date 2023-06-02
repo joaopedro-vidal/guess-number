@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Roboto&family=Titillium+Web&display=swap');
+
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --background-color: #212A3E;
+    --message-color: #F0F0F0;
+    --color-h1: #F45050;
+    --color-span: #40d317;
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--message-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 5em;
+    color: var(--color-h1);
+}
+
+h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: var(--color-span);
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+.message{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+#lower-value, #highest-value{
+    color: var(--color-span);
+    font-weight: bold;
+}
+
+.box{
+    border: 2px solid var(--color-h1);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.btn-play{
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: var(--color-span);
+    color: var(--message-color);
+    font-weight: bold;
+    border: 2px solid var(--message-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-play:hover{
+    background-color: var(--message-color);
+    color: var(--color-span);
+    transition: 2s;
+}
+
+.game-over{
+    font-size: 30px;
+}
