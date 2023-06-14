@@ -34,3 +34,4 @@ function gameOver(kick){
 }
 
 recognition.addEventListener('end', () => recognition.start())
+
